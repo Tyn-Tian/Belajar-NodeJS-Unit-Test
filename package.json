@@ -6,6 +6,11 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
   "author": "Christian",
   "license": "ISC",
   "repository": {
@@ -13,6 +18,8 @@
     "url": "https://github.com/Tyn-Tian/Belajar-NodeJS-Unit-Test"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.6",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
   }
 }
