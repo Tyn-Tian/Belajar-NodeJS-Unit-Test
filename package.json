@@ -4,12 +4,15 @@
   "description": "Belajar NodeJs Unit Test",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Christian",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tyn-Tian/Belajar-NodeJS-Unit-Test"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
