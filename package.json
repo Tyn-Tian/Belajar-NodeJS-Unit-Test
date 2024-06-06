@@ -8,6 +8,7 @@
   },
   "jest": {
     "verbose": true,
+    "maxConcurrency": 1,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
