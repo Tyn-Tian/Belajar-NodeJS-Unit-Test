@@ -12,7 +12,7 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
     "collectCoverage": true,
-    "collectThresFrom": [
+    "collectCoverageFrom": [
       "./src/**/*.js"
     ],
     "coverageThreshold": {
